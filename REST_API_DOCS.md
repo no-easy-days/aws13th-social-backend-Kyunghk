@@ -971,7 +971,7 @@ Authorization: Bearer
 | title | string | O | 게시글 제목 |
 | content | string | O | 게시글 내용 |
 
-**Request Example → Reqeust Body 가 있는 경우 작성 필**
++**Request Example → Request Body 가 있는 경우 작성 필수**
 
 ```json
 {
