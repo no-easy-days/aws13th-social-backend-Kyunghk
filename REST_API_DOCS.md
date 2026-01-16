@@ -1203,17 +1203,3 @@ Authorization: Bearer {accessToken}
   }
 }
 ```
-
----
-
-| 파라미터 | 타입 | 필수 | 설명 |
-| --- | --- | --- | --- |
-| sort | string | X | 정렬 기준 (latest, views, likes) |
-| page | integer | X | 페이지 번호 (기본값: 1) |
-| limit | integer | X | 페이지당 게시글 수 (기본값: 20) |
-
-**Path Parameters**
-
-| 파라미터 | 타입 | 필수 | 설명 |
-| --- | --- | --- | --- |
-| postId | integer | O | 수정할 게시글의 ID |
