@@ -597,7 +597,7 @@
 | 헤더 | 타입 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | Authorization | string | O | Bearer |
-| Content-Type | astring | O | application/json |
+| Content-Type | string | O | application/json |
 
 **Path Parameters**
 
