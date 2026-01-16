@@ -1122,7 +1122,7 @@ Authorization: Bearer {accessToken}
 | 필드 | 타입 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | email | string | O | 사용자 이메일 |
-| password | string | O | 사용자 비밀번 |
+| password | string | O | 사용자 비밀번호 |
 
 **Request Example**
 
