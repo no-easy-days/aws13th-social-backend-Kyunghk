@@ -831,7 +831,7 @@ Authorization: Bearer {accessToken}
 
 ### { 댓글 작성 }
 
-POST `/posts/{postId}/comments`
+**POST** `/posts/{postId}/comments`
 
 로그인한 사용자가 게시글에 댓글을 작성할 수 있습니다.
 
@@ -1198,7 +1198,7 @@ Authorization: Bearer {accessToken}
     "id": 1,
     "email": "user@example.com",
     "nickname": "user",
-	  "profileImageUrl": "https://storage.googleapis.com/my-bucket/users/profile/profile.png",
+    "profileImageUrl": "https://storage.googleapis.com/my-bucket/users/profile/profile.png",
     "createdAt": "2026-01-04T12:00:00Z"
   }
 }
